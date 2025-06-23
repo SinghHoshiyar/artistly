@@ -91,7 +91,7 @@ npm run dev
 
 ## 📬 Contact / Submission
 
-This project was developed by **[Hoshiyar Singh]** as part of the internship assignment for **Eventful India**. For any queries or feedback, please contact via Internshala or email.
+This project was developed by **Hoshiyar Singh** as part of the internship assignment for **Eventful India**. For any queries or feedback, please contact via Internshala or email.
 
 ---
 
