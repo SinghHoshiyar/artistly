@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎤 Artistly – A Performing Artist Booking Platform
 
-## Getting Started
+**Live Demo:** [[https://artistly-wheat-nine.vercel.app/](https://artistly-wheat-nine.vercel.app/)]
 
-First, run the development server:
+Artistly is a fictional SaaS demo built for Eventful India's internship assignment. It allows event planners to discover and book artists, while artist managers can onboard talent and review submissions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Features
+
+### Public Features
+- **Home Page** with category cards and CTAs
+- **Artist Listing** with filters by category, location, and price range
+- **Shortlisting (❤️)** with localStorage persistence
+- **Request Booking Modal** with form validation
+- **Animated Page Transitions** using Framer Motion
+
+### Artist Onboarding
+- Complex form with validation using `react-hook-form` and `yup`
+- Multi-select dropdowns for categories & languages
+
+### Dashboard (Manager View)
+- View submitted artist profiles
+- Preview full profile in modal format
+
+### Extras
+- Fully responsive on mobile and desktop
+- SEO meta tags and image alt attributes added
+- Next.js `<Image />` for LCP optimization
+- Smooth route transitions using Framer Motion
+
+---
+
+## 🛠Tech Stack
+
+- **Frontend Framework:** Next.js 13 App Router
+- **UI Styling:** Tailwind CSS + ShadCN components
+- **Forms:** `react-hook-form` + `yup`
+- **State Handling:** `useState`, `useEffect`
+- **Routing Animations:** Framer Motion
+- **Type Safety:** TypeScript (no `any` used)
+- **Deployment:** [Vercel](https://vercel.com)
+
+---
+
+## Project Structure
+
+```
+app/
+  page.tsx                → Homepage
+  artists/page.tsx        → Artist listing & filter
+  onboarding/page.tsx     → Artist form onboarding
+  dashboard/page.tsx      → Manager dashboard
+components/
+  ArtistCard.tsx
+  ViewArtistModal.tsx
+  RequestBookingModal.tsx
+  FilterBlock.tsx
+  Navbar.tsx / Footer.tsx
+  PageTransitionWrapper.tsx
+public/
+  assets/
+    singer.jpg, dancer.jpg, dj.jpg...
+data/
+  artists.json
+  submissions.json
+  categories.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Setup Instructions (Local Development)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# 1. Clone the repository
+https://github.com/YOUR_USERNAME/artistly.git
 
-## Learn More
+# 2. Navigate into the project
+cd artistly
 
-To learn more about Next.js, take a look at the following resources:
+# 3. Install dependencies
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 4. Run locally
+npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Project will be live at http://localhost:3000
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📬 Contact / Submission
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was developed by **[Hoshiyar Singh]** as part of the internship assignment for **Eventful India**. For any queries or feedback, please contact via Internshala or email.
+
+---
+
+## ✅ Assignment Goals Covered
+
+| Requirement                      | Status       |
+|----------------------------------|--------------|
+| Modular code structure           | ✅ Completed |
+| Artist listing + filters         | ✅ Completed |
+| Onboarding form with validation  | ✅ Completed |
+| Shortlist + booking simulation   | ✅ Completed |
+| Page transitions & animation     | ✅ Completed |
+| SEO, responsiveness              | ✅ Completed |
+| Deployment on Vercel             | ✅ Completed |
