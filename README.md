@@ -1,6 +1,6 @@
 # 🎤 Artistly – A Performing Artist Booking Platform
 
-**Live Demo:** [[https://artistly-wheat-nine.vercel.app/](https://artistly-wheat-nine.vercel.app/)]
+**Live Demo:** [https://artistly-cyan-two.vercel.app/]
 
 Artistly is a fictional SaaS demo built for Eventful India's internship assignment. It allows event planners to discover and book artists, while artist managers can onboard talent and review submissions.
 
