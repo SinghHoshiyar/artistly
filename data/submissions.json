@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Aaravi Sharma",
+    "category": "Singer",
+    "city": "Delhi",
+    "fee": "₹10,000 - ₹15,000",
+    "bio": "A classically trained playback singer with over 200 stage shows.",
+    "languages": ["Hindi", "English"],
+    "profileImage": "/assets/singer.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Meera Nair",
+    "category": "Dancer",
+    "city": "Mumbai",
+    "fee": "₹5,000 - ₹10,000",
+    "bio": "Award-winning Bharatanatyam dancer with modern fusion shows.",
+    "languages": ["Hindi", "Bengali"],
+    "profileImage": "/assets/dancer.jpg"
+  }
+]
